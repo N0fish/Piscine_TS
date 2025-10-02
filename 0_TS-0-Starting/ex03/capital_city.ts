@@ -24,11 +24,11 @@ function capital_city(state: string): void {
   console.log(keyCc);
 }
 
-function main(): void {
+function main_capital_city(): void {
     const args = process.argv.slice(2);
     if (args.length !== 1)
         return;
     capital_city(args[0])
 }
 
-main();
+main_capital_city();

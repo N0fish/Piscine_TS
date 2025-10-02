@@ -1,5 +1,9 @@
 ## Starting
 
+```
+npm install -D @types/node
+```
+
 <details>
 <summary>🇬🇧 ENGLISH VERSION</summary>
 
@@ -79,6 +83,26 @@ npm run start:ex03_01 Oregon Alabama Ile-De-France
 ```
 <br>
 
+## ex04 – Search by value
+Same "dictionaries".
+The program takes a capital (`Salem`) and prints its state (`Oregon`).
+If the capital doesn’t exist → `"Unknown capital city"`.
+
+```bash
+ex04/state.ts Salem
+```
+- Oregon
+```bash
+ex04/state_map.ts Paris
+```
+- Unknown capital city
+```bash
+ex04/state_record.ts
+```
+```bash
+npm run start:ex04_00 Trenton Alabama
+```
+<br>
 </details>
 
 ---
@@ -165,6 +189,27 @@ npm run start:ex03_00 Oregon Alabama
 npm run start:ex03_01 Oregon Alabama Ile-De-France
 ```
 <br>
+
+## ex04 – Recherche par valeur
+Même "dictionnaires".
+Le programme prend une capitale (`Salem`) et affiche l’État (`Oregon`).
+Si la capitale n’existe pas → `"Unknown capital city"`.
+
+```bash
+ex04/state.ts Salem
+```
+- Oregon
+```bash
+ex04/state_map.ts Paris
+```
+- Unknown capital city
+```bash
+ex04/state_record.ts
+```
+```bash
+npm run start:ex04_00 Trenton Alabama
+```
+<br>
 </details>
 
 ---
@@ -245,6 +290,27 @@ npm run start:ex03_00 Oregon Alabama
 ```
 ```bash
 npm run start:ex03_01 Oregon Alabama Ile-De-France
+```
+<br>
+
+## ex04 – Search by value
+Те же "словари".
+Программа принимает столицу (`Salem`) и выводит штат (`Oregon`).
+Если столица не найдена → `"Unknown capital city"`.
+
+```bash
+ex04/state.ts Salem
+```
+- Oregon
+```bash
+ex04/state_map.ts Paris
+```
+- Unknown capital city
+```bash
+ex04/state_record.ts
+```
+```bash
+npm run start:ex04_00 Trenton Alabama
 ```
 <br>
 
