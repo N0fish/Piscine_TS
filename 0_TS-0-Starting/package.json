@@ -1,0 +1,14 @@
+{
+  "name": "numbers",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^20.0.0"
+  },
+  "scripts": {
+    "start:ex00": "ts-node ex00/var.ts",
+    "start:ex01": "ts-node ex01/numbers.ts"
+  }
+}
