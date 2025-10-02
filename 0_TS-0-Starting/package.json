@@ -11,6 +11,9 @@
     "start:ex00": "ts-node ex00/var.ts",
     "start:ex01": "ts-node ex01/numbers.ts",
     "start:ex02_00": "ts-node ex02/var_to_map.ts",
-    "start:ex02_01": "ts-node ex02/var_to_record.ts"
+    "start:ex02_01": "ts-node ex02/var_to_record.ts",
+    "start:ex03_00": "ts-node ex03/capital_city.ts",
+    "start:ex03_01": "ts-node ex03/capital_city_map.ts",
+    "start:ex03_02": "ts-node ex03/capital_city_record.ts"
   }
 }

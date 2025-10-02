@@ -55,6 +55,30 @@ npm run start:ex02_01
 ```
 <br>
 
+## ex03 – Key search
+Two "dictionaries": `states` and `capital_cities`.
+The program takes a state (`Oregon`) and prints its capital (`Salem`).
+If the state doesn’t exist → `"Unknown state"`.
+
+```bash
+ex03/capital_city.ts Oregon
+```
+- Salem
+```bash
+ex03/capital_city_map.ts Ile-De-France
+```
+- Unknown state
+```bash
+ex03/capital_city_record.ts
+```
+```bash
+npm run start:ex03_00 Oregon Alabama
+```
+```bash
+npm run start:ex03_01 Oregon Alabama Ile-De-France
+```
+<br>
+
 </details>
 
 ---
@@ -117,6 +141,30 @@ or
 npm run start:ex02_01
 ```
 <br>
+
+## ex03 – Key search
+Deux "dictionnaires" : `states` et `capital_cities`.
+Le programme prend un État (`Oregon`) et affiche sa capitale (`Salem`).
+Si l’État n’existe pas → `"Unknown state"`.
+
+```bash
+ex03/capital_city.ts Oregon
+```
+- Salem
+```bash
+ex03/capital_city_map.ts Ile-De-France
+```
+- Unknown state
+```bash
+ex03/capital_city_record.ts
+```
+```bash
+npm run start:ex03_00 Oregon Alabama
+```
+```bash
+npm run start:ex03_01 Oregon Alabama Ile-De-France
+```
+<br>
 </details>
 
 ---
@@ -173,6 +221,30 @@ ex02/var_to_record.ts
 or
 ```bash
 npm run start:ex02_01
+```
+<br>
+
+## ex03 – Key search
+2 "словаря": `states` и `capital_cities`.
+Программа принимает штат (`Oregon`) и выводит столицу (`Salem`).
+Если штат не найден → `"Unknown state"`.
+
+```bash
+ex03/capital_city.ts Oregon
+```
+- Salem
+```bash
+ex03/capital_city_map.ts Ile-De-France
+```
+- Unknown state
+```bash
+ex03/capital_city_record.ts
+```
+```bash
+npm run start:ex03_00 Oregon Alabama
+```
+```bash
+npm run start:ex03_01 Oregon Alabama Ile-De-France
 ```
 <br>
 
