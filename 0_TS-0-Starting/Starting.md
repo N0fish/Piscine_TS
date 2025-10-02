@@ -24,6 +24,37 @@ npm run start:ex01
 ```
 <br>
 
+## ex02 – My first Map and Record
+A list of pairs (musician → birth year) must be transformed into a Map or Record (year → musician) and displayed line by line in the format:
+
+```yaml
+1970 : Frusciante
+1954 : Vaughan
+1948 : Ramone
+...
+```
+```bash
+ex02/var_to_map.ts
+```
+or
+```bash
+npm run start:ex02_00
+```
+```yaml
+1948 : Ramone
+1954 : Vaughan
+1970 : Frusciante
+...
+```
+```bash
+ex02/var_to_record.ts
+```
+or
+```bash
+npm run start:ex02_01
+```
+<br>
+
 </details>
 
 ---
@@ -56,6 +87,36 @@ npm run start:ex01
 ```
 <br>
 
+## ex02 – Mon premier Map et Record
+Une liste de couples (musicien → année de naissance) doit être transformée en Map ou Record (année → musicien) et affichée ligne par ligne au format :
+
+```yaml
+1970 : Frusciante
+1954 : Vaughan
+1948 : Ramone
+...
+```
+```bash
+ex02/var_to_map.ts
+```
+or
+```bash
+npm run start:ex02_00
+```
+```yaml
+1948 : Ramone
+1954 : Vaughan
+1970 : Frusciante
+...
+```
+```bash
+ex02/var_to_record.ts
+```
+or
+```bash
+npm run start:ex02_01
+```
+<br>
 </details>
 
 ---
@@ -81,6 +142,37 @@ ex01/numbers.ts
 or
 ```bash
 npm run start:ex01
+```
+<br>
+
+## ex02 – My first Map and Record
+Список пар (музыкант → год рождения) нужно превратить в Map или Record (год → музыкант) и вывести его построчно в формате:
+
+```yaml
+1970 : Frusciante
+1954 : Vaughan
+1948 : Ramone
+...
+```
+```bash
+ex02/var_to_map.ts
+```
+or
+```bash
+npm run start:ex02_00
+```
+```yaml
+1948 : Ramone
+1954 : Vaughan
+1970 : Frusciante
+...
+```
+```bash
+ex02/var_to_record.ts
+```
+or
+```bash
+npm run start:ex02_01
 ```
 <br>
 
