@@ -126,6 +126,15 @@ toto is neither a capital city nor a state
 Salem is the capital of Oregon
 ```
 <br>
+
+## ex06 – "Dictionary" sorting
+A "dictionary" (musician → year).
+Print the musicians sorted by year (ascending), then alphabetically if years are the same.
+
+```bash
+ex06/my_sort.ts
+```
+<br>
 </details>
 
 ---
@@ -256,6 +265,15 @@ toto is neither a capital city nor a state
 Salem is the capital of Oregon
 ```
 <br>
+
+## ex06 – Tri d’un "dictionnaire"
+Un "dictionnaire" (musicien → année).
+Afficher les musiciens triés par année croissante, puis par ordre alphabétique si années identiques.
+
+```bash
+ex06/my_sort.ts
+```
+<br>
 </details>
 
 ---
@@ -383,4 +401,12 @@ Salem is the capital of Oregon
 ```
 <br>
 
+## ex06 – "Dictionary" sorting
+"Словарь" (музыкант → год).
+Нужно вывести имена музыкантов, отсортированные по году (возрастание), а при совпадении годов — в алфавитном порядке.
+
+```bash
+ex06/my_sort.ts
+```
+<br>
 </details>

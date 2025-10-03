@@ -20,6 +20,9 @@
     "start:ex04_02": "ts-node ex04/state_record.ts",
     "start:ex05_00": "ts-node ex05/all_in.ts",
     "start:ex05_01": "ts-node ex05/all_in_map.ts",
-    "start:ex05_02": "ts-node ex05/all_in_record.ts"
+    "start:ex05_02": "ts-node ex05/all_in_record.ts",
+    "start:ex06_00": "ts-node ex05/my_sort.ts",
+    "start:ex06_01": "ts-node ex05/my_sort_map.ts",
+    "start:ex06_02": "ts-node ex05/my_sort_record.ts"
   }
 }
