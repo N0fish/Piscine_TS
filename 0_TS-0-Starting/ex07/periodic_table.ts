@@ -14,12 +14,11 @@ type Elem = {
 
 function parseLine(line: string): Elem | null {
   // Hydrogen = position:0, number:1, small: H, molar:1.00794, electron:1
-  const i = line.indexOf("=");
-  if (i === -1) 
+  if (!line.includes("="))
     return null;
 
-  const name = line.slice(0, i).trim();
-  const attrsPart = line.slice(i + 1);
+  const [namePart, attrsPart] = line.split("=") as [string, string];
+  const name = namePart.trim();
 
   const attrs: Record<string, string> = {};
   for (const chunk of attrsPart.split(",")) {
