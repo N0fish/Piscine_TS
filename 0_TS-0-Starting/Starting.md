@@ -103,6 +103,29 @@ ex04/state_record.ts
 npm run start:ex04_00 Trenton Alabama
 ```
 <br>
+
+## ex05 – Search by key or value
+Takes a comma-separated string. For each element, determine:
+- if it’s a state,
+- if it’s a capital,
+- or neither.
+Not case-sensitive, ignores multiple spaces.
+
+```bash
+ex05/all_in_map.ts "New jersey, Tren ton, NewJersey, Trenton, toto, , sAlem"
+```
+```bash
+npm run start:ex05_01 "New jersey, Tren ton, NewJersey, Trenton, toto, , sAlem"
+```
+```
+Trenton is the capital of New Jersey
+Tren ton is neither a capital city nor a state
+NewJersey is neither a capital city nor a state
+Trenton is the capital of New Jersey
+toto is neither a capital city nor a state
+Salem is the capital of Oregon
+```
+<br>
 </details>
 
 ---
@@ -210,6 +233,29 @@ ex04/state_record.ts
 npm run start:ex04_00 Trenton Alabama
 ```
 <br>
+
+## ex05 – Recherche par clé ou par valeur
+Prend une chaîne séparée par des virgules. Pour chaque élément, détermine :
+- si c’est un État,
+- si c’est une capitale,
+- ou rien.
+Ne tient pas compte de la casse ni des espaces multiples.
+
+```bash
+ex05/all_in_map.ts "New jersey, Tren ton, NewJersey, Trenton, toto, , sAlem"
+```
+```bash
+npm run start:ex05_01 "New jersey, Tren ton, NewJersey, Trenton, toto, , sAlem"
+```
+```
+Trenton is the capital of New Jersey
+Tren ton is neither a capital city nor a state
+NewJersey is neither a capital city nor a state
+Trenton is the capital of New Jersey
+toto is neither a capital city nor a state
+Salem is the capital of Oregon
+```
+<br>
 </details>
 
 ---
@@ -311,6 +357,29 @@ ex04/state_record.ts
 ```
 ```bash
 npm run start:ex04_00 Trenton Alabama
+```
+<br>
+
+## ex05 – Search by key or value
+Принимает строку с элементами, разделёнными запятой. Для каждого элемента определяет:
+- это штат,
+- это столица,
+- или ни то, ни другое.
+Игнорирует регистр и лишние пробелы.
+
+```bash
+ex05/all_in_map.ts "New jersey, Tren ton, NewJersey, Trenton, toto, , sAlem"
+```
+```bash
+npm run start:ex05_01 "New jersey, Tren ton, NewJersey, Trenton, toto, , sAlem"
+```
+```
+Trenton is the capital of New Jersey
+Tren ton is neither a capital city nor a state
+NewJersey is neither a capital city nor a state
+Trenton is the capital of New Jersey
+toto is neither a capital city nor a state
+Salem is the capital of Oregon
 ```
 <br>
 
