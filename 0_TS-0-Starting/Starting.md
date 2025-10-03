@@ -135,6 +135,25 @@ Print the musicians sorted by year (ascending), then alphabetically if years are
 ex06/my_sort.ts
 ```
 <br>
+
+## ex07 – Periodic table
+Using `periodic_table.txt`, generate `periodic_table.html` that represents the periodic table of elements in HTML.
+- each element in a `<td>`
+- name in `<h4>`
+- properties in `<ul>`
+- page must be W3C valid
+
+```bash
+ex07/periodic_table.ts
+```
+or
+```bash
+npm run start:ex07  
+```
+```bash
+open ex07/periodic_table.html
+```
+<br>
 </details>
 
 ---
@@ -274,6 +293,25 @@ Afficher les musiciens triés par année croissante, puis par ordre alphabétiqu
 ex06/my_sort.ts
 ```
 <br>
+
+## ex07 – Tableau périodique
+À partir de `periodic_table.txt`, générer `periodic_table.html` qui représente le tableau de Mendeleïev en HTML.
+- chaque élément dans un `<td>`
+- nom dans `<h4>`
+- propriétés dans `<ul>`
+- page valide W3C
+
+```bash
+ex07/periodic_table.ts
+```
+or
+```bash
+npm run start:ex07  
+```
+```bash
+open ex07/periodic_table.html
+```
+<br>
 </details>
 
 ---
@@ -409,4 +447,22 @@ Salem is the capital of Oregon
 ex06/my_sort.ts
 ```
 <br>
+
+## ex07 – Periodic table
+Используя `periodic_table.txt`, сгенерировать `periodic_table.html`, отображающий таблицу Менделеева в виде HTML-таблицы.
+- каждый элемент в `<td>`
+- название в `<h4>`
+- свойства в `<ul>`
+- страница должна быть валидной по W3C
+
+```bash
+ex07/periodic_table.ts
+```
+or
+```bash
+npm run start:ex07  
+```
+```bash
+open ex07/periodic_table.html
+```
 </details>
